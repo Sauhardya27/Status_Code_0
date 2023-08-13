@@ -47,12 +47,12 @@ img {vertical-align: middle;}
 }
 
 /* Fading animation */
-.fade {
+.fade1 {
   animation-name: fade;
   animation-duration: 20s;
 }
 
-.fade {
+.fade-out {
 	animation-name: fade-out;
 	animation-duration: 20s;
 }
