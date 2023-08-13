@@ -24,8 +24,8 @@ function submitForm(e) {
 
     // Get values
     var name = getInputVal("modal-name");
-    var num = getInputVal("modal-description");
-    var message = getInputVal("modal-number");
+    var num = getInputVal("modal-number");
+    var message = getInputVal("modal-description");
 
     // Get city from API call
     fetch("https://ipapi.co/json/")
